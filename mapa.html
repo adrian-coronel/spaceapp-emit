@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="js/script.js" defer></script>
+    <script src="js/mapa.js" defer></script>
     <title>SpaceX - Falcon Heavy</title>
   </head>
   <body>
@@ -51,20 +54,7 @@
       <p>The world's most powerful rocket</p>
     </div>
 
-    <div class="stats">
-      <div>
-        <span class="counter" data-target="3">0</span>
-        <h4>Total Launches</h4>
-      </div>
-      <div>
-        <span class="counter" data-target="7">0</span>
-        <h4>Total Landings</h4>
-      </div>
-      <div>
-        <span class="counter" data-target="4">0</span>
-        <h4>Total Reflights</h4>
-      </div>
-    </div>
+    <div id="map" class="mapa""></div>
 
     <footer>
       <ul>

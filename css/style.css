@@ -492,3 +492,8 @@ footer ul li a:hover {
     margin-bottom: 20px;
   }
 }
+
+.mapa{
+  height: 500px;
+  width: 100%;
+}

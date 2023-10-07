@@ -1,0 +1,15 @@
+{
+  "name": "spaceapp-emit",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JS SpaceX website clone project from the [YouTube tutorial](https://www.youtube.com/watch?v=wryPX7KSwSc). It is not the entire website, but the homepage, a few inner pages with the CSS animations, mobile menu and the JavaScript countdown effect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
