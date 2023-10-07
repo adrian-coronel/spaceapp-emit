@@ -1,0 +1,23 @@
+[
+  {
+    "pregunta": "Estoy confundido, ¿EMIT mide el polvo atmosférico o la superficie terrestre?",
+    "respuesta": "El EMIT mapea los minerales en la superficie de la Tierra. La medición del polvo en la atmósfera solo puede proporcionar una instantánea de las condiciones en un lugar y momento determinados. Sin embargo, para predecir la influencia total del polvo y sus impactos futuros a medida que cambia la superficie terrestre, necesitamos comprender todo el ciclo del polvo. Para ayudar en este esfuerzo, EMIT medirá la mineralogía de la superficie de todas las tierras áridas en regiones conocidas que emiten polvo en todo el planeta. Luego, el equipo científico de EMIT utilizará estos mapas, junto con conjuntos de datos existentes, para modelar la distribución y composición del polvo atmosférico y su influencia en el clima de la Tierra.",
+    "viñetas": [
+      "El EMIT mapea los minerales en la superficie de la Tierra, de este modo predecir la influencia del polvo que emite y su impacto a futuro.",
+      "Emit medirá la mineralogía de superficie de todas las tierras áridas en regiones emisoras"
+    ]
+  },
+  {
+    "pregunta": "¿Por qué es importante calentar y enfriar el polvo atmosférico?",
+    "respuesta": "Hay muchos factores importantes que determinan la trayectoria climática de nuestro planeta. EMIT se centra en el forzamiento radiativo, o la cantidad de calor atrapado o reflejado por la atmósfera. Si bien el forzamiento radiativo no es la parte más importante del presupuesto climático, es el más incierto: tan incierto que podría desempeñar un papel de enfriamiento o de calentamiento. EMIT busca controlar esta incertidumbre y \"restringir el signo\" del forzamiento radiativo a un efecto de enfriamiento o de calentamiento.",
+    "viñetas": [
+      "Forzamiento radiativo = la diferencia entre la insolación absorbida por la Tierra y la energía irradiada de vuelta al espacio",
+      "Emit busca controlar el forzamiento radiativo, aunque no es el más importante si es el más incierto respecto a los esfuerzos a resolver para combatir el cambio climático."
+    ]
+  },
+  {
+    "pregunta": "¿Por qué EMIT va a la Estación Espacial Internacional?",
+    "respuesta": "La Estación Espacial Internacional (ISS) cuenta con una gran cantidad de infraestructura que EMIT puede aprovechar para ayudar a mantener bajos los costos. EMIT se une a un legado sustancial de instrumentos importantes, como ECOSTRESS y GEDI, en la recopilación de datos desde un punto de vista estratégico en la ISS.",
+    "viñetas": []
+  }
+]
