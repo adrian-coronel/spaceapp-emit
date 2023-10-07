@@ -25,3 +25,44 @@
 //         }
 //     });
 // });
+
+const contentElement = document.getElementById("content");
+
+fetch('data/preguntas.json')
+  .then(response => response.json())
+  .then(data => {
+    // Aquí puedes trabajar con el JSON en la variable "data"
+    // console.log(data)
+    data.forEach(data => {
+      // console.log(data.viñetas)
+
+      estructureViñetas = ""
+      if (data.viñetas){
+        data.viñetas.forEach(viñ =>{
+        estructureViñetas += `<li>${viñ}</li>`
+        })
+      }
+      // console.log(estructureViñetas)
+      estructureQuestion = `
+        <div id="questions">
+          <div class="content-question">
+            <div class="content-title">
+              <h3>${data.pregunta}</h3>
+            </div>
+            <div class="content-answer d-none">
+              <p>${data.respuesta}</p>
+              <al>
+                ${estructureViñetas} 
+              </al>
+            </div>
+          </div>
+        </div>
+      `;
+      console.log(estructureQuestion)
+    
+      contentElement.innerHTML+=estructureQuestion;
+    });
+  })
+  .catch(error => {
+    console.error('Error al cargar el archivo JSON:', error);
+  });

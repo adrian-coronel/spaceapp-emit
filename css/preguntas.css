@@ -28,12 +28,15 @@
 /* .d-none{
   display: none;
 } */
-.content-answer p{
+.content-answer p, li{
  margin-top: 10px;
  text-transform: none;
  font-size: 14px;
  color: rgb(202, 202, 202);
  /* padding: 0 15px 0 15px; */
+}
+.content-answer span {
+  font-style: italic;
 }
 
 @media (max-width:2000px) {
