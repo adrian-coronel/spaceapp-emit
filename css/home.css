@@ -1,0 +1,123 @@
+  .section-g {
+   /* background-image: url('../img/section-a.webp'); */
+  }
+
+
+
+  .section-video {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background-color: black;
+    padding: 100px; /* Agrega espacio alrededor de la sección si es necesario */
+  }
+  
+  .section-innerVideo {
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    max-width: 460px;
+    width: 500px; /* Ajusta el ancho del texto según tus preferencias */
+    /*padding: 20px; /* Espacio alrededor del texto */
+    /*color: white; /* Color del texto */
+    /*text-align: center; /* Centra el texto horizontalmente */
+  }
+
+  .section-innerVideo h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .section-innerVideo h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+  }
+  
+  .section-innerVideo a {
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+  }
+
+  .video-container {
+    width: 60%; /* Ajusta el ancho del video según tus preferencias */
+    padding: 10px; /* Espacio alrededor del video */
+  }
+
+  .section-innerS2 {
+    position: absolute;
+    bottom: 200px;
+    right: 150px;
+    max-width: 560px;
+  }
+  
+  .section-innerS2 h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .section-innerS2 h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+  }
+  
+  .section-innerS2 a {
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+  }
+
+
+  /* Configuración de fondo de imagen */
+  .section-a2 {
+    position: relative;
+    overflow: hidden; /* Oculta el desbordamiento de la imagen invertida */
+  }
+  
+  .background-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-a.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+  
+  .background-image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-d.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+  
+  .background-image4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-f.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+ 

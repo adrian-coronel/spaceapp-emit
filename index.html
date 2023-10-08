@@ -1,186 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
-    <title>SpaceX</title>
-  </head>
-  <body>
-    <div id="overlay"></div>
-    <div id="mobile-menu" class="mobile-main-menu">
-      <ul>
-        <li class="mobile-only"><a href="index.html">Home(Mikhael)</a></li>
-        <li class="mobile-only"><a href="mapa.html">Mapa(Pedro)</a></li>
-        <li class="mobile-only"><a href="beneficios.html">Benificios(Delvin)</a></li>
-        <li class="mobile-only"><a href="aplicaciones.html">Apps(Sebas)</a></li>
-        <li class="mobile-only"><a href="efectos.html">Efectos(Duberly)</a></li>
-        <li class="mobile-only"><a href="preguntas.html">Preguntas(Adrian)</a></li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <script src="js/script.js" defer></script>
+  <title>EMIT</title>
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <div id="mobile-menu" class="mobile-main-menu">
+    <ul>
+      <li class="mobile-only"><a href="index.html">Inicio</a></li>
+      <li class="mobile-only"><a href="mapa.html">Mapa</a></li>
+      <li class="mobile-only"><a href="beneficios.html">Benificios</a></li>
+      <li class="mobile-only"><a href="aplicaciones.html">Aplicaciones</a></li>
+      <li class="mobile-only"><a href="efectos.html">Efectos</a></li>
+      <li class="mobile-only"><a href="preguntas.html">Preguntas</a></li>
+    </ul>
+  </div>
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="SpaceX" />
+      </a>
     </div>
-    <header class="main-header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/logo-emit.png" alt="SpaceX" />
-        </a>
-      </div>
-      <nav class="desktop-main-menu">
-        <ul>
-          <li><a href="index.html">Home(Mikhael)</a></li>
-          <li><a href="mapa.html">Mapa(Pedro)</a></li>
-          <li><a href="beneficios.html">Benificios(Delvin)</a></li>
-          <li><a href="aplicaciones.html">Apps(Sebas)</a></li>
-          <li><a href="efectos.html">Efectos(Duberly)</a></li>
-          <li><a href="preguntas.html">Preguntas(Adrian)</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Hamburger Menu -->
-    <button id="menu-btn" class="hamburger" type="button">
-      <span class="hamburger-top"></span>
-      <span class="hamburger-middle"></span>
-      <span class="hamburger-bottom"></span>
-    </button>
-
-    <!-- Section A -->
-    <section class="section-a">
-      <div class="section-inner">
-        <h4>Upcoming Launch</h4>
-        <h2>CRS-25 Mission</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-
-      <div class="scroll-arrow">
-        <svg width="30px" height="20px">
-          <path
-            stroke="#ffffff"
-            fill="none"
-            stroke-width="2px"
-            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
-          ></path>
-        </svg>
-      </div>
-    </section>
-
-    <!-- Section B -->
-    <section class="section-b">
-      <div class="section-inner">
-        <h4>Recent Launch</h4>
-        <h2>Starlink Mission</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-
-      <div class="scroll-arrow">
-        <svg width="30px" height="20px">
-          <path
-            stroke="#ffffff"
-            fill="none"
-            stroke-width="2px"
-            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
-          ></path>
-        </svg>
-      </div>
-    </section>
-
-    <!-- Section C -->
-    <section class="section-c">
-      <div class="section-inner">
-        <h4>Recent Mission</h4>
-        <h2>SES-22 Mission</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-
-      <div class="scroll-arrow">
-        <svg width="30px" height="20px">
-          <path
-            stroke="#ffffff"
-            fill="none"
-            stroke-width="2px"
-            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
-          ></path>
-        </svg>
-      </div>
-    </section>
-
-    <!-- Section D -->
-    <section class="section-d">
-      <div class="section-inner">
-        <h4>Recent Launch</h4>
-        <h2>Globalstar FM15 Mission</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-
-      <div class="scroll-arrow">
-        <svg width="30px" height="20px">
-          <path
-            stroke="#ffffff"
-            fill="none"
-            stroke-width="2px"
-            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
-          ></path>
-        </svg>
-      </div>
-    </section>
-
-    <!-- Section E -->
-    <section class="section-e">
-      <div class="section-inner">
-        <h2>Starship Update</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-
-      <div class="scroll-arrow">
-        <svg width="30px" height="20px">
-          <path
-            stroke="#ffffff"
-            fill="none"
-            stroke-width="2px"
-            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
-          ></path>
-        </svg>
-      </div>
-    </section>
-
-    <!-- Section F -->
-    <section class="section-f">
-      <div class="section-inner">
-        <h2>Starship to add NASA astronauts on the moon</h2>
-        <a href="#" class="btn">
-          <div class="hover"></div>
-          <span>Rewatch</span>
-        </a>
-      </div>
-    </section>
-
-    <footer>
+    <nav class="desktop-main-menu">
+>>>>>>> home
       <ul>
-        <li>SpaceX &copy; 2022</li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">YouTube</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Flickr</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Suppliers</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="beneficios.html">Benificios</a></li>
+        <li><a href="aplicaciones.html">Apicaciones</a></li>
+        <li><a href="efectos.html">Efectos</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
       </ul>
-    </footer>
-  </body>
+    </nav>
+  </header>
+
+  <!-- Hamburger Menu -->
+  <button id="menu-btn" class="hamburger" type="button">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+  </button>
+
+  <div class="scroll-arrow">
+    <svg width="30px" height="20px">
+      <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+    </svg>
+  </div>
+</section>
+
+<!-- Sección 1 de Inicio -->
+<section class="section-f">
+  <div class="section-inner">
+    <h2>EMIT y el Futuro del Monitoreo Climático desde el Espacio</h2>
+    <h4>Bienvenido a EMIT: Earth Surface Mineral Dust Source Investigation</h4>
+    <a href="https://www.youtube.com/watch?v=R9MlE1ykxC0&ab_channel=ElDebate" class="btn">
+      <div class="hover"></div>
+      <span>Ver Video</span>
+    </a>
+  </div>
+</section>
+
+<div class="scroll-arrow">
+  <svg width="30px" height="20px">
+    <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+  </svg>
+</div>
+</section>
+
+  <!-- Section 2 de Inicio -->
+  <section class="section-a2 ">
+    <div class="background-image2"></div>
+    <div class="section-innerS2 ">
+      <h2>¿Qué es EMIT?</h2>
+      <h4>EMIT, la Earth Surface Mineral Dust Source Investigation, es una misión científica que opera desde la Estación
+        Espacial Internacional (ISS). Su objetivo es analizar el polvo mineral transportado desde regiones áridas y
+        comprender cómo este polvo afecta al calentamiento y enfriamiento del planeta.Únete a nosotros en esta emocionante exploración y descubre cómo EMIT está contribuyendo al futuro
+        de nuestro planeta." </h4>
+      <a href="https://earth.jpl.nasa.gov/emit/" class="btn">
+        <div class="hover"></div>
+        <span>Conocer más</span>
+      </a>
+    </div>
+
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Sección 3 de Inicio -->
+  <section class="section-b">
+    <div class="section-inner">
+      <h2>¿Cómo funciona EMIT?</h2>
+      <h4>EMIT utiliza un espectrómetro de
+        imágenes para mapear minerales en la superficie terrestre, generando datos cruciales para mejorar modelos
+        climáticos, reducir emisiones de gases de efecto invernadero y comprender mejor los peligros naturales y la
+        biodiversidad.</h4>
+      <a href="aplicaciones.html" class="btn">
+        <div class="hover"></div>
+        <span>Conocer más</span>
+      </a>
+    </div>
+
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Section 4 -->
+  <section class="section-c">
+    <div class="section-innerS2">
+      <h2>Logros y Beneficios de EMIT</h2>
+      <h4>EMIT ha permitido la detección y mapeo de emisiones de gases de efecto invernadero, como metano y dióxido de
+        carbono, lo que contribuye a la mitigación del cambio climático.</h4>
+      <h4>Ha mejorado la comprensión de los peligros naturales y la biodiversidad, permitiendo estrategias de gestión de
+        desastres y conservación más efectivas.</h4>
+      <a href="beneficios.html" class="btn">
+        <div class="hover"></div>
+        <span>Conocer más</span>
+      </a>
+    </div>
+
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Section 5 -->
+  <section class="section-a2">
+    <div class="background-image3"></div>
+    <div class="section-inner">
+      <h2>Explora Nuestro Mapa Interactivo</h2>
+      <h4>Descripción de un mapa interactivo donde los usuarios pueden examinar la reflectancia de la superficie,
+        mineralogía y observaciones de gases invernaderos en las zonas estudiadas por EMIT.</h4>
+      <a href="mapa.html" class="btn">
+        <div class="hover"></div>
+        <span>Explorar más</span>
+      </a>
+    </div>
+
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Section E -->
+  <section class="section-a2">
+    <div class="background-image4"></div>
+    <div class="section-innerS2">
+      <h2>Beneficios Futuros</h2>
+      <h4>incluyen una mejor comprensión del polvo mineral, su influencia en el clima, y la capacidad de detectar y mapear
+        emisiones de gases de efecto invernadero, lo que contribuye a la mitigación del cambio climático y mejora la
+        gestión de recursos naturales.</h4>
+      <a href="beneficios.html" class="btn">
+        <div class="hover"></div>
+        <span>Conocer más</span>
+      </a>
+    </div>
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
+      </svg>
+    </div>
+  </section>
+
+
+<!-- Section Video -->
+<section class="section-video section-g">
+  <div class="section-innerVideo ">
+    <h2>Únete a la Exploración</h2>
+    <h4>Invitación a los visitantes a aprender más sobre EMIT, explorar los datos y seguir las actualizaciones de la
+      misión.</h4>
+      <a href="#" class="btn">
+        <div class="hover"></div>
+        <span>Registrarme</span>
+      </a>
+  </div>
+  <div class="video-container">
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/R9MlE1ykxC0?si=06SiYCfZQvt7ec9f"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+</section>
+
+
+
+  <footer>
+    <ul>
+      <li>SpaceX &copy; 2022</li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">YouTube</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Flickr</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Suppliers</a></li>
+    </ul>
+  </footer>
+</body>
+
 </html>
