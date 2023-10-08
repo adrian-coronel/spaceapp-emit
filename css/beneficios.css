@@ -508,61 +508,10 @@ footer ul li a:hover {
   }
 
 
-/* Animación de aparición */
-.beneficio:nth-child(odd) {
-  transform-origin: left center;
-}
 
-.beneficio:nth-child(even) {
-  transform-origin: right center;
-}
 
-.beneficio:nth-child(odd) {
-  animation: aparecerIzquierda 1s ease-in-out forwards;
-}
 
-.beneficio:nth-child(even) {
-  animation: aparecerDerecha 1s ease-in-out forwards;
-}
 
-@keyframes aparecerIzquierda {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scaleX(0);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scaleX(1);
-  }
-}
-
-@keyframes aparecerDerecha {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scaleX(0);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scaleX(1);
-  }
-}
-
-@keyframes fadeInImage {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-
-  .beneficios1, .beneficios2, .beneficios3, .beneficios4 {
-    animation: fadeInImage 1s ease-in-out forwards;
-    opacity: 0;
-  }
   
   .beneficio-card {
     display: flex;
