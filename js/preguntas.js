@@ -25,7 +25,6 @@
 //         }
 //     });
 // });
-
 const contentElement = document.getElementById("content");
 
 fetch('data/preguntas.json')
@@ -33,24 +32,24 @@ fetch('data/preguntas.json')
   .then(data => {
     // Aquí puedes trabajar con el JSON en la variable "data"
     // console.log(data)
-    data.forEach(data => {
-      // console.log(data.viñetas)
-
-      estructureViñetas = ""
-      if (data.viñetas){
-        data.viñetas.forEach(viñ =>{
-        estructureViñetas += `<li>${viñ}</li>`
-        })
+    data.forEach(item => {
+      let estructureViñetas = ""; // Define aquí la variable para acumular viñetas
+      
+      if (item.viñetas) {
+        item.viñetas.forEach(viñ => {
+          estructureViñetas += `<li>${viñ}</li>`;
+        });
       }
-      // console.log(estructureViñetas)
-      estructureQuestion = `
+
+      // Define la estructura de la pregunta fuera del bucle
+      const estructureQuestion = `
         <div id="questions">
           <div class="content-question">
             <div class="content-title">
-              <h3>${data.pregunta}</h3>
+              <h3>${item.pregunta}</h3>
             </div>
             <div class="content-answer d-none">
-              <p>${data.respuesta}</p>
+              <p>${item.respuesta}</p>
               <al>
                 ${estructureViñetas} 
               </al>
@@ -58,9 +57,8 @@ fetch('data/preguntas.json')
           </div>
         </div>
       `;
-      console.log(estructureQuestion)
-    
-      contentElement.innerHTML+=estructureQuestion;
+
+      contentElement.innerHTML += estructureQuestion;
     });
   })
   .catch(error => {

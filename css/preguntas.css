@@ -28,7 +28,7 @@
 /* .d-none{
   display: none;
 } */
-.content-answer p, li{
+.content-answer p, .content-answer li{
  margin-top: 10px;
  text-transform: none;
  font-size: 14px;
