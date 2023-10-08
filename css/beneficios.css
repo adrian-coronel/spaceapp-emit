@@ -95,6 +95,11 @@ section {
   text-transform: uppercase;
 }
 
+section p{
+  text-transform: capitalize;
+  color: #B8BBBF;
+}
+
 .section-inner {
   position: absolute;
   bottom: 200px;
@@ -502,18 +507,6 @@ footer ul li a:hover {
     background-image: url('../img/section-a.webp');
   }
 
-.beneficios1{
-  background-image: url('../img/B1.png'); /* Cambia el color de fondo si es necesario */
-}
-.beneficios2{
-    background-image: url('../img/B2.png'); /* Cambia el color de fondo si es necesario */
-  }
-  .beneficios3{
-    background-image: url('../img/B3.png'); /* Cambia el color de fondo si es necesario */
-  }
-  .beneficios4{
-    background-image: url('../img/B4.png'); /* Cambia el color de fondo si es necesario */
-  }
 
 /* Animación de aparición */
 .beneficio:nth-child(odd) {
@@ -554,31 +547,6 @@ footer ul li a:hover {
   }
 }
 
-/* Estilo base para los elementos de beneficio */
-/* Establece el punto de transformación en el centro superior */
-.beneficio {
-    max-width: 600px;
-    margin: 0 auto;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.5s, transform 0.5s;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    margin-bottom: 300px;
-    animation: aparecerArriba 1s ease-in-out forwards;
-    transform-origin: center top; /* Ajusta el punto de transformación */
-  }
-  
-  
-  /* Agregar animación al hacer scroll */
-  .beneficio.aparecer {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-/* Define la animación para la entrada de las imágenes */
 @keyframes fadeInImage {
     0% {
       opacity: 0;
@@ -590,9 +558,59 @@ footer ul li a:hover {
     }
   }
   
-  /* Aplica la animación a las secciones de beneficios */
+
   .beneficios1, .beneficios2, .beneficios3, .beneficios4 {
     animation: fadeInImage 1s ease-in-out forwards;
-    opacity: 0; /* Establece la opacidad inicial en 0 para que la animación funcione */
+    opacity: 0;
   }
   
+  .beneficio-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+  }
+  
+.beneficio {
+  max-width: 960px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s, transform 0.5s;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: -200px;
+  animation: aparecerArriba 1s ease-in-out forwards;
+  transform-origin: center top;
+}
+
+.beneficio.aparecer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.beneficio-image img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+  width: 50%; 
+  float: left; 
+}
+
+
+.beneficio-info {
+  width: 50%; 
+  float: left; 
+}
+
+@keyframes aparecerArriba {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
