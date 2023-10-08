@@ -40,7 +40,7 @@ ul {
 
 /* Logo */
 .logo {
-  width:75px;
+  width: 210px;
   height: auto;
 }
 
@@ -93,6 +93,11 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   text-transform: uppercase;
+}
+
+section p{
+  text-transform: capitalize;
+  color: #B8BBBF;
 }
 
 .section-inner {
@@ -497,4 +502,64 @@ footer ul li a:hover {
 .mapa{
   height: 500px;
   width: 100%;
+}
+.section-a {
+    background-image: url('../img/section-a.webp');
+  }
+
+
+
+
+
+
+  
+  .beneficio-card {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+  }
+  
+.beneficio {
+  max-width: 960px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s, transform 0.5s;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: -200px;
+  animation: aparecerArriba 1s ease-in-out forwards;
+  transform-origin: center top;
+}
+
+.beneficio.aparecer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.beneficio-image img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+  width: 50%; 
+  float: left; 
+}
+
+
+.beneficio-info {
+  width: 50%; 
+  float: left; 
+}
+
+@keyframes aparecerArriba {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
