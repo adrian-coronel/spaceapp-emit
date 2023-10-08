@@ -7,7 +7,7 @@ var map = L.map('map').setView([8.93314799529361, 24.890625], 4);
 
         // Datos de ejemplo de puntos con coordenadas y nombres
         var points = [
-            { lat: 8.93314799529361, lon: 24.890625, name: "Punto 1" },
+            { lat: 8.93314799529361, lon: 24.890625, name: "Gas Metano" },
             // Agrega más puntos aquí en el mismo formato
         ];
 
