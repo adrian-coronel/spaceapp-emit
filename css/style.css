@@ -125,18 +125,21 @@ section {
 /* Background images */
 .section-a {
   background-image: url('../img/section-a.webp');
+ 
 }
 .section-b {
   background-image: url('../img/section-b.webp');
 }
 .section-c {
   background-image: url('../img/section-c.webp');
+   /* Para soporte en navegadores antiguos */
 }
 .section-d {
   background-image: url('../img/section-d.webp');
 }
 .section-e {
   background-image: url('../img/section-e.webp');
+   /* Para soporte en navegadores antiguos */
 }
 .section-f {
   background-image: url('../img/section-f.webp');

@@ -2,6 +2,8 @@
    /* background-image: url('../img/section-a.webp'); */
   }
 
+
+
   .section-video {
     display: flex;
     align-items: start;
@@ -40,20 +42,12 @@
     animation: fadeInUp 0.5s ease-in-out 0.4s;
     animation-fill-mode: both;
   }
-  .section-inner h4 {
-    font-size: 22px;
-    margin-bottom: 5px;
-    font-weight: 300;
-    animation: fadeInUp 0.5s ease-in-out;
-  }
-  
+
   .video-container {
     width: 60%; /* Ajusta el ancho del video según tus preferencias */
     padding: 10px; /* Espacio alrededor del video */
   }
-  
-  /* Añade cualquier otro estilo necesario para tu diseño */
-  
+
   .section-innerS2 {
     position: absolute;
     bottom: 200px;
@@ -81,4 +75,49 @@
     animation-fill-mode: both;
   }
 
+
+  /* Configuración de fondo de imagen */
+  .section-a2 {
+    position: relative;
+    overflow: hidden; /* Oculta el desbordamiento de la imagen invertida */
+  }
   
+  .background-image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-a.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+  
+  .background-image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-d.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+  
+  .background-image4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/section-f.webp');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+ 
