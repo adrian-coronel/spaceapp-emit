@@ -429,15 +429,35 @@ html {
 #popup7 .container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 15px;
 }
 
 #popup7 .box_img {
     width: 50%;
+   
+
+}
+
+#popup7 .box_img img{
+    height: 350px;
 
 }
 
 #popup7 .box_text {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popup7 .box_text h3{
+    margin: 10px;
+}
+#popup7 .box_text p{
+    margin: 10px;
+    width: 80%;
 }
 
 #popup7 .sub_text {
@@ -463,19 +483,85 @@ html {
     padding: 10px;
 }
 
+#popu7 .box_icon{
+
+    border: 1px solid red;
+}
+
+#popup8 .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px 50px 0px 50px;
+ 
+
+}
+
+#popup8 .box{
+    padding: 20px;
+
+}
+#popup8 .box1{
+ 
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#popup8 .box2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#popup8 .box3{
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+#popup8 .box_text{
+    
+}
+
 
 #popup9 .container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 15px;
 }
 
 #popup9 .box_img {
     width: 50%;
+   
+
+}
+
+#popup9 .box_img img{
+    height: 350px;
 
 }
 
 #popup9 .box_text {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popup9 .box_text h3{
+    margin: 10px;
+}
+#popup9 .box_text p{
+    margin: 10px;
+    width: 80%;
 }
 
 #popup9 .sub_text {
@@ -499,4 +585,9 @@ html {
 
     text-align: center;
     padding: 10px;
+}
+
+#popup9 .box_icon{
+    background-color: aliceblue;
+    border: 1px solid red;
 }
