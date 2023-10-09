@@ -1,6 +1,3 @@
-  .section-g {
-   /* background-image: url('../img/section-a.webp'); */
-  }
 
 
 
@@ -88,7 +85,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/section-a.webp');
+    background-image: url('../img/imagenSeccion2.webp');
     background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     transform: scaleX(-1); /* Invierte la imagen horizontalmente */
@@ -101,7 +98,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/section-d.webp');
+    background-image: url('../img/planeta2.jpg');
     background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     transform: scaleX(-1); /* Invierte la imagen horizontalmente */
@@ -114,10 +111,53 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../img/section-f.webp');
+    background-image: url('../img/seccion5.webp');
     background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     transform: scaleX(-1); /* Invierte la imagen horizontalmente */
     z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+ 
+  .background-image5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/satelite_seccion1.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Invierte la imagen horizontalmente */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+  }
+
+  .section-innerS3 {
+    position: absolute;
+    bottom: 200px;
+    right: 480px;
+    max-width: 560px;
+  }
+
+  .section-innerS3 h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+    text-align: center;
+  }
+  
+  .section-innerS3 h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+    text-align: center;
+  }
+  
+  .section-innerS3 a {
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+    left: 175px;
   }
  
