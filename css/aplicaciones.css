@@ -2,15 +2,20 @@ html {
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 p{
     text-transform: capitalize;
     color: #B8BBBF;
 }
+=======
+
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834
 .apps {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .app_card1{
     width: 38vh;
     height: 38vh;
@@ -20,6 +25,8 @@ p{
     text-align: center;
 
 }
+=======
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834
 
 .app_card {
     width: 38vh;
@@ -28,7 +35,10 @@ p{
     padding: 20px;
     border: 1px solid wheat;
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 70px;
+=======
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834
 }
 
 .app_card img {
@@ -134,7 +144,11 @@ p{
     top: 10%;
     left: 10%;
     width: 80%;
+<<<<<<< HEAD
     height: 89%;
+=======
+    height: 80%;
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834
     background: #505050;
     padding: 20px;
     border-radius: 5px;
@@ -600,7 +614,14 @@ p{
     padding: 10px;
 }
 
+<<<<<<< HEAD
 /* #popup9 .box_icon{
     background-color: aliceblue;
     border: 1px solid red;
 } */
+=======
+#popup9 .box_icon{
+    background-color: aliceblue;
+    border: 1px solid red;
+}
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834

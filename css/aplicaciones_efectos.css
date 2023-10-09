@@ -47,7 +47,10 @@
 
 .front,
 .back {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 46cf5dbd9934b9a1fac631b9cc56d1bc473b9834
     width: 100%;
     height: 100%;
     display: flex;
