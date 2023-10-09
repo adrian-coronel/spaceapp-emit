@@ -354,7 +354,9 @@ footer ul li a:hover {
 .bg-falcon-heavy {
   background-image: url('../img/falcon-heavy.webp');
 }
-
+.bg-efectos {
+  background-image: url('../img/fondo-efectos.jpg');
+}
 .bg-dragon {
   background-image: url('../img/dragon.webp');
 }
