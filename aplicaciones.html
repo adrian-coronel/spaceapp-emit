@@ -1,63 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
-    <title>SpaceX - Falcon 9</title>
-  </head>
-  <body>
-    <div id="overlay"></div>
-    <div id="mobile-menu" class="mobile-main-menu">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/aplicaciones.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/aplicaciones_efectos.css">
+  <link rel="icon" href="img/icon.ico">
+  <script src="js/script.js" defer></script>
+  <title>SpaceX - Falcon 9</title>
+
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <div id="mobile-menu" class="mobile-main-menu">
+    <ul>
+      <li class="mobile-only"><a href="index.html">Home(Mikhael)</a></li>
+      <li class="mobile-only"><a href="mapa.html">Mapa(Pedro)</a></li>
+      <li class="mobile-only"><a href="beneficios.html">Benificios(Delvin)</a></li>
+      <li class="mobile-only"><a href="aplicaciones.html">Apps(Sebas)</a></li>
+      <li class="mobile-only"><a href="efectos.html">Efectos(Duberly)</a></li>
+      <li class="mobile-only"><a href="preguntas.html">Preguntas(Adrian)</a></li>
+    </ul>
+  </div>
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="SpaceX" />
+      </a>
+    </div>
+    <nav class="desktop-main-menu">
       <ul>
-        <li class="mobile-only"><a href="index.html">Home</a></li>
-        <li class="mobile-only"><a href="mapa.html">Map</a></li>
-        <li class="mobile-only"><a href="beneficios.html">Benefits</a></li>
-        <li class="mobile-only"><a href="aplicaciones.html">Applications</a></li>
-        <li class="mobile-only"><a href="efectos.html">Effects</a></li>
-        <li class="mobile-only"><a href="preguntas.html">Questions</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="beneficios.html">Benificios</a></li>
+        <li><a href="aplicaciones.html">Apicaciones</a></li>
+        <li><a href="efectos.html">Efectos</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
       </ul>
+    </nav>
+  </header>
+
+  <!-- Hamburger Menu -->
+  <button id="menu-btn" class="hamburger" type="button">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+  </button>
+
+
+  <!--Seccion A-->
+  <section class="section-animate bg-falcon-9"></section>
+  <div class="section-inner-center">
+    <h3>KNOW THE EMIT APPLICATIONS</h3>
+
+    <a href="#ancla-1" class="btn">
+      <div class="hover"></div>
+      <span>ACTIVE APPLICATIONS</span>
+    </a>
+    <a href="#ancla-2" class="btn">
+      <div class="hover"></div>
+      <span>POTENTIAL APPLICATIONS</span>
+    </a>
+  </div>
+
+
+<!--Section B-->
+<section class="section-animate ">
+  <a name="ancla-1"></a>
+  <div class="app_container">
+
+    <div class="apps_title_type">
+      <h1>Active Applications</h1>
     </div>
-    <header class="main-header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/logo.png" alt="SpaceX" />
+    <!--Active Applications-->
+    <div class="apps">
+      <!--Application Card-->
+      <!--Greenhouse Gas Mapping-->
+      <div class="app_card">
+        <div>
+          <div class="app_title at_a">
+            <h2>Greenhouse Gas Mapping</h2>
+
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-1" class="btn linkpopup" data-popup="popup1">
+          <div class="hover"></div>
+          <span>Learn More</span>
         </a>
+
+        <div id="popup1" class="popup">
+          <div class="popup-content" id="popup-content1">
+            <!-- Card Content -->
+
+            <h2>Greenhouse Gas Mapping</h2>
+            <div class="slide slide1">
+              <!-- Content of the first slide -->
+
+
+              <h3>The greenhouse gases with the greatest impact are:</h3>
+
+              <div class="box">
+                <div>
+                  <img src="img/co2.png" alt="">
+                </div>
+
+                <div class="box_text">
+                  <h4>Carbon Dioxide</h4>
+                  <p>Human activities have increased the amount of CO2 in the atmosphere by 50% since the Industrial Revolution began.</p>
+                  <a href="https://climate.nasa.gov/signos-vitales/dioxido-de-carbono/" class="btn linkpopup">
+                    <div class="hover"></div>
+                    <span>What is Carbon Dioxide?</span>
+                  </a>
+                </div>
+              </div>
+              <div class="box">
+
+                <div class="box_text">
+                  <h4>Methane</h4>
+                  <p>The amount of methane in our atmosphere has more than doubled since the pre-industrial era.</p>
+                  <a href="https://climate.nasa.gov/signos-vitales/metano/" class="btn linkpopup">
+                    <div class="hover"></div>
+                    <span>What is Methane?</span>
+                  </a>
+                </div>
+
+                <div>
+                  <img src="img/metano.png" alt="">
+                </div>
+
+              </div>
+            </div>
+
+            <div class="slide slide2">
+              <!-- Content of the second slide -->
+              <h2>What Does EMIT Do?</h2>
+              <div class="container">
+                <div class="card">
+                  <h3>Gas Detection</h3>
+                  <p>Identifies the unique spectral signature of greenhouse gases in the light reflected by the Earth.</p>
+                </div>
+
+                <div class="card">
+                  <h3>Emission Source Mapping</h3>
+                  <p>Locates and maps specific sources of these emissions.</p>
+                </div>
+
+                <div class="card">
+                  <h3>Understanding and Mitigation</h3>
+                  <p>Allows understanding the magnitude and location of anthropogenic greenhouse gas emissions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide slide3">
+              <!-- Content of the third slide -->
+              <h2>What Do We Get?</h2>
+
+              <div class="container">
+                <div class="screen_vission">
+                  <div>
+                    <h3>VISIONS: The EMIT Open Data Portal</h3>
+                    <p>EMIT contributes to studying how snow and ice melting affects water resources, including sea level rise and its impact on coastal populations.</p>
+
+                    <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/"
+                      class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>Enter VISIONS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buttons to switch between slides -->
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup1', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente'
+              onclick="changeSlide('popup1', 1)"></i></box-icon>
+
+            <button class="closePopup" onclick="closePopup('popup1')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
       </div>
-      <nav class="desktop-main-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="mapa.html">Map</a></li>
-          <li><a href="beneficios.html">Benefits</a></li>
-          <li><a href="aplicaciones.html">Applications</a></li>
-          <li><a href="efectos.html">Effects</a></li>
-          <li><a href="preguntas.html">Questions</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-    <!-- Hamburger Menu -->
-    <button id="menu-btn" class="hamburger" type="button">
-      <span class="hamburger-top"></span>
-      <span class="hamburger-middle"></span>
-      <span class="hamburger-bottom"></span>
-    </button>
-  
-    <div class="scroll-arrow">
-      <svg width="30px" height="20px">
-        <path stroke="#ffffff" fill="none" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "></path>
-      </svg>
-    </div>
-  </section>
 
-    <section class="section-animate bg-falcon-9"></section>
-    <div class="section-inner-center">
-      <h3>APLICACIONES</h3>
-      <p>First orbital class rocket capable of reflight</p>
-    </div>
+      <!--Application Card-->
+      <!--Snow Properties Study-->
+      <div class="app_card">
+        <div>
+          <div class="app_title at_b">
+            <h2>Snow Properties Study</h2>
 
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-1" class="btn linkpopup" data-popup="popup2">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup2" class="popup">
+          <div class="popup-content">
+
+            <h2>Snow Properties Study</h2>
+            <div
+
+ class="slide slide1">
+              <!-- Content of the third slide -->
+              <h2>What is Albedo?</h2>
+
+              <div class="container">
+
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/d1U7X1k3d0Y" frameborder="0"
+                    allowfullscreen></iframe>
+                </div>
+
+                <p>Albedo is the fraction of light that a surface reflects. The albedo of the Earth's surface (atmosphere, ocean, land surfaces) determines how much incoming solar energy, or light, is immediately reflected back into space. This can have an impact on the climate.</p>
+              </div>
+            </div>
+
+            <div class="slide slide2">
+              <!-- Content of the third slide -->
+              <h2>What Can EMIT Do?</h2>
+
+
+              <div class="box">
+                <div class="box_img">
+                  <img src="img/snow_cover.png" alt="">
+                  <p class="description">View of snow cover in the Chilean Andes from EMIT</p>
+                </div>
+
+                <div class="box_text">
+
+                  <p>Measure snow reflectivity, allowing the assessment of snow albedo level.</p>
+
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="card">
+
+                  <p>Monitor changes in snow cover extent over time.</p>
+
+                </div>
+
+                <div class="card">
+
+                  <p>Fundamental for understanding trends in snow melt and its impact on the hydrological cycle.</p>
+
+                </div>
+
+                <div class="card">
+
+                  <p>Understand how changes in snow cover and melting can affect the release of these gases.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Buttons to switch between slides -->
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup2', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente'
+              onclick="changeSlide('popup2', 1)"></i></box-icon>
+
+            <button class="closePopup" onclick="closePopup('popup2')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!--Application Card-->
+      <!--Water Resources Research-->
+      <div class="app_card">
+        <div>
+          <div class="app_title at_c">
+            <h2>Water Resources Research</h2>
+
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-1" class="btn linkpopup" data-popup="popup3">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup3" class="popup">
+          <div class="popup-content">
+            <!-- Card Content -->
+            <h2>Water Resources Research</h2>
+            <div class="slide slide1">
+              <!-- Content of the third slide -->
+              <h2>What Can EMIT Do?</h2>
+
+              <div class="container">
+                <div class="sea_background">
+                  <div>
+
+                    <p>The increased melting of snow and ice causes the Earth to absorb more solar light and displaces vast volumes of stored water from the land surface, raising sea levels and altering the availability of water for large populations.</p>
+
+                    <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/"
+                      class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>Discover More</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buttons to switch between slides -->
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup3', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente'
+              onclick="changeSlide('popup3', 1)"></i></box-icon>
+
+            <button class="closePopup" onclick="closePopup('popup3')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--Section C-->
+<section class="section-animate at_d" style="margin-bottom: 100px;">
+  <a name="ancla-2"></a>
+  <div class="app_container">
+    <div class="apps_title_type">
+      <h1>Potential Applications</h1>
+    </div>
+    <div class="apps">
+
+      <div class="app_card">
+        <div>
+          <div class="app_title at_e">
+            <h2>Natural Hazards</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup4">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup4" class="popup">
+          <div class="popup-content">
+            <h2>Natural Hazards</h2>
+            <div class="slide slide1">
+              <h2>What Can EMIT Do?</h2>
+              <div class="container">
+                <div>
+                  <p>EMIT data could enable the detection of various natural hazards and could be used to guide disaster management strategies.</p>
+                </div>
+
+                <div class="carousel">
+                  <!-- Repeat this block for each natural hazard -->
+                  <div class="carousel-container">
+                    <div class="carousel-track">
+                      <div class="carousel-item">
+                        <div class="front" style="background-image: url(img/A1.jpg); border-radius: 50%;">
+                          <p>Droughts</p>
+                        </div>
+                        <div class="back">
+                          <p>Prolonged periods of rainfall shortage that can lead to water scarcity, impact agriculture, and cause water supply problems.</p>
+                        </div>
+                      </div>
+                      <!-- Repeat this block for each natural hazard -->
+                    </div>
+                  </div>
+                  <div class="arrow left"></div>
+                  <div class="arrow right"></div>
+                </div>
+              </div>
+              <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/" class="btn linkpopup">
+                <div class="hover"></div>
+                <span>Discover More</span>
+              </a>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup4', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup4', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup4')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="app_card ">
+        <div>
+          <div class="app_title at_f">
+            <h2>Environmental Pollution</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup5">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup5" class="popup">
+          <div class="popup-content">
+            <h2>Environmental Pollution</h2>
+            <div class="slide slide1">
+              <h2>Issues</h2>
+              <div class="container">
+                <div class="card">
+                  <h3>Oil Spills</h3>
+                  <p>Identify the unique spectral signature of greenhouse gases in the light reflected by the Earth.</p>
+                </div>
+                <!-- Repeat this block for each pollution issue -->
+              </div>
+            </div>
+            <div class="slide slide1">
+              <h2>What Can EMIT Do?</h2>
+              <div class="container">
+                <div>
+                  <p>Increased snow and ice melting causes Earth to absorb more solar light and displaces vast volumes of stored water from the land surface, raising sea levels and changing water availability for large populations.</p>
+                  <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/" class="btn linkpopup">
+                    <div class="hover"></div>
+                    <span>Discover More</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup5', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup5', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup5')"><i class='bx
+
+ bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="app_card">
+        <div>
+          <div class="app_title at_g">
+            <h2>Coastal Waters and Harmful Algal Blooms</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup6">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup6" class="popup">
+          <div class="popup-content">
+            <h2>Coastal Waters and Harmful Algal Blooms</h2>
+            <div class="slide slide1">
+              <h3>The most impactful greenhouse gases are:</h3>
+              <div class="box">
+                <div>
+                  <img src="img/co2.png" alt="">
+                </div>
+                <div class="box_text">
+                  <h4>Carbon Dioxide</h4>
+                  <p>Human activities have increased the amount of CO2 in the atmosphere by 50% since the Industrial Revolution began.</p>
+                  <a href="https://climate.nasa.gov/en-espanol/signos-vitales/dioxido-de-carbono/" class="btn linkpopup">
+                    <div class="hover"></div>
+                    <span>What is Carbon Dioxide?</span>
+                  </a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box_text">
+                  <h4>Methane</h4>
+                  <p>The amount of methane in our atmosphere has more than doubled since the pre-industrial era.</p>
+                  <a href="https://climate.nasa.gov/en-espanol/signos-vitales/metano/" class="btn linkpopup">
+                    <div class="hover"></div>
+                    <span>What is Methane?</span>
+                  </a>
+                </div>
+                <div>
+                  <img src="img/metano.png" alt="">
+                </div>
+              </div>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup6', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup6', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup6')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="app_card">
+        <div>
+          <div class="app_title at_h">
+            <h2>Agricultural Monitoring</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup7">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup7" class="popup">
+          <div class="popup-content">
+            <h2>Agricultural Monitoring</h2>
+            <div class="slide slide1">
+              <h2>What Can EMIT Do?</h2>
+              <div class="container">
+                <div class="box_img"><!--image on the left-->
+                  <img src="img/contaminacion_ambiental.jpg" alt="">
+                </div>
+                <div class="box_text">
+                  <h3>EMIT will collect data on many of the world's agricultural regions.</h3>
+                  <p>Depending on the season and crop management, this data can provide information on crop types, vegetation health and diseases, crop residue composition, and soil mineralogy.</p>
+                  <div class="sub_text">
+                    <div class="box_icon"><!--ICON or STICKER, etc-->
+                      <img src="img/sal.png" alt="">
+                    </div>
+                    <p>Crop health and agricultural production are essential for maintaining human health and societies.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup7', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup7', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup7')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="app_card">
+        <div>
+          <div class="app_title at_i">
+            <h2>Forest Management and Fires</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup8">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup8" class="popup">
+          <div class="popup-content">
+            <h2>Forest Management and Fires</
+
+h2>
+            <div class="slide slide1">
+              <h2>What Can EMIT Do?</h2>
+              <div class="container">
+                <div class="box1 box">
+                  <div  class="box_img">
+                    <img src="" alt="">
+                  </div>
+                  <div  class="box_text">
+                    <p>Forest lands, both in the western US and worldwide, face an increasing risk of mortality due to droughts, beetle outbreaks, and forest fires.</p>
+                  </div>
+                </div>
+                <div class="box2 box">
+                  <div class="box_img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="box_text">
+                    <p>EMIT data can be used after a forest fire to assess recovery and monitor current risks.</p>
+                  </div>
+                </div>
+                <div class="box3 box">
+                  <div  class="box_img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="box_text">
+                    <p>EMIT data could be used to monitor forest health.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide2">
+              <h3></h3>
+              <div >
+                <div >
+                  <img src="img/FIRMS_today[@0.0,0.0,3.0z].jpg" alt="" class="FIRMS_today">
+                </div>
+                <div class="box_text">
+                  <p>Albedo is the fraction of light reflected by a surface. The albedo of the Earth's surface (atmosphere, ocean, land surfaces) determines how much incoming solar energy, or light, is immediately reflected back into space. This can have an impact on climate.</p>
+                </div>
+                <a href="https://firms.modaps.eosdis.nasa.gov/map/" class="btn linkpopup" data-popup="popup8">
+                  <div class="hover"></div>
+                  <span>FIRMS MAP</span>
+                </a>
+              </div>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup8', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup8', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup8')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="app_card">
+        <div>
+          <div class="app_title at_j">
+            <h2>Plant Communities and Biodiversity Monitoring</h2>
+          </div>
+        </div>
+        <br>
+        <a href="#ancla-2" class="btn linkpopup" data-popup="popup9">
+          <div class="hover"></div>
+          <span>Learn More</span>
+        </a>
+
+        <div id="popup9" class="popup">
+          <div class="popup-content">
+            <h2>Plant Communities and Biodiversity Monitoring</h2>
+            <div class="container">
+              <div class="box_text">
+                <h3>EMIT will collect data on many of the world's agricultural regions</h3>
+                <p>Depending on the season and crop management, this data can provide information on crop types, vegetation health and diseases, crop residue composition, and soil mineralogy.</p>
+                <div class="sub_text">
+                  <div class="box_icon"><!--ICON or STICKER, etc-->
+                    <img src="img/sal.png" alt="">
+                  </div>
+                  <p>Crop health and agricultural production are essential for maintaining human health and societies.</p>
+                </div>
+              </div>
+              <div class="box_img"><!--image on the left-->
+                <img src="img/contaminacion_ambiental.jpg" alt="">
+              </div>
+            </div>
+            <i class='bx bxs-left-arrow arrow_icon anterior' onclick="changeSlide('popup9', -1)"></i>
+            <i class='bx bxs-right-arrow arrow_icon siguiente' onclick="changeSlide('popup9', 1)"></i></box-icon>
+            <button class="closePopup" onclick="closePopup('popup9')"><i class='bx bx-x'></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--
     <div class="stats">
       <div>
         <span class="counter" data-target="3">0</span>
@@ -72,7 +653,12 @@
         <h4>Total Reflights</h4>
       </div>
     </div>
+    -->
 
-    
-  </body>
+
+
+  <script src="js/aplicaciones.js"></script>
+  <script src="js/aplicacion_carousel.js"></script>
+</body>
+
 </html>
