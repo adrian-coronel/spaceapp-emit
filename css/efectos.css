@@ -1,0 +1,81 @@
+#efectos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: fit-content;
+  margin-top: 200px;
+}
+
+#efectos .container {
+  display: flex;
+  /* flex-direction: row; */
+  width: 80%;
+}
+.container p {
+  text-transform: none;
+  font-size: 16px;
+  color: rgb(202, 202, 202);
+}
+.content-description{
+  display: flex;
+  border: 0.5px solid gainsboro;
+  margin-right: 50px;
+}
+.content-description div{
+  margin: auto;
+  width: 70%;
+}
+.content-description h2 {
+  margin-bottom: 30px;
+}
+.content-cards {
+  display: flex;
+  flex-direction: row;
+}
+.content-cards .column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.content-cards .column-two {
+  margin-top: 70px;
+}
+.card {
+  background-color: #1B1C1E;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 7px; 
+}
+.card p {
+  margin: 15px 0 25px 0;
+}
+.card .hr-problem {
+  border-color: lightcoral;
+}
+.card .hr-solution {
+  border-color: lightgreen;
+}
+
+
+@media (max-width: 1200px) {
+  
+  #efectos .container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .content-description {
+    margin: 0 0 50px 0;
+    padding: 50px 0 50px 0;
+  }
+}
+
+@media (max-width: 576px){
+  .content-cards {
+    flex-direction: column;
+  }
+  .content-cards .column {
+    width: 100%;
+  }
+}
