@@ -10,9 +10,10 @@
   }
   
   .section-innerVideo {
-    position: absolute;
-    bottom: 200px;
-    left: 150px;
+    /* position: absolute; */
+    /* bottom: 200px;
+    left: 150px; */
+    margin-right: 80px;
     max-width: 460px;
     width: 500px; /* Ajusta el ancho del texto según tus preferencias */
     /*padding: 20px; /* Espacio alrededor del texto */

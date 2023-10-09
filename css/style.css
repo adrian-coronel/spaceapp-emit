@@ -134,6 +134,11 @@ section {
   background-image: url('../img/section-c.webp');
    /* Para soporte en navegadores antiguos */
 }
+
+.section-h {
+  background-image: url('../img/espacio2.jpg');
+   /* Para soporte en navegadores antiguos */
+}
 .section-d {
   background-image: url('../img/section-d.webp');
 }
