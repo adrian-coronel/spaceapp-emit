@@ -1,23 +1,23 @@
 [
   {
-    "pregunta": "Estoy confundido, ¿EMIT mide el polvo atmosférico o la superficie terrestre?",
-    "respuesta": "El EMIT mapea los minerales en la superficie de la Tierra. La medición del polvo en la atmósfera solo puede proporcionar una instantánea de las condiciones en un lugar y momento determinados. Sin embargo, para predecir la influencia total del polvo y sus impactos futuros a medida que cambia la superficie terrestre, necesitamos comprender todo el ciclo del polvo. Para ayudar en este esfuerzo, EMIT medirá la mineralogía de la superficie de todas las tierras áridas en regiones conocidas que emiten polvo en todo el planeta. Luego, el equipo científico de EMIT utilizará estos mapas, junto con conjuntos de datos existentes, para modelar la distribución y composición del polvo atmosférico y su influencia en el clima de la Tierra.",
+    "pregunta": "I'm confused, does EMIT measure atmospheric dust or the Earth's surface?",
+    "respuesta": "EMIT maps minerals on the Earth's surface. Measuring dust in the atmosphere can only provide a snapshot of conditions at a given place and time. However, to predict the full influence of dust and its future impacts as the Earth's surface changes, we need to understand the entire dust cycle. To assist in this effort, EMIT will measure the surface mineralogy of all dry lands in known dust-emitting regions around the planet. The EMIT science team will then use these maps, along with existing data sets, to model the distribution and composition of atmospheric dust and its influence on Earth's climate.",
     "viñetas": [
-      "El EMIT mapea los minerales en la superficie de la Tierra, de este modo predecir la influencia del polvo que emite y su impacto a futuro.",
-      "Emit medirá la mineralogía de superficie de todas las tierras áridas en regiones emisoras"
+      "EMIT maps the minerals on the Earth's surface, thus predicting the influence of the dust it emits and its future impact.",
+      "Emit will measure the surface mineralogy of all drylands in emitting regions"
     ]
   },
   {
-    "pregunta": "¿Por qué es importante calentar y enfriar el polvo atmosférico?",
-    "respuesta": "Hay muchos factores importantes que determinan la trayectoria climática de nuestro planeta. EMIT se centra en el forzamiento radiativo, o la cantidad de calor atrapado o reflejado por la atmósfera. Si bien el forzamiento radiativo no es la parte más importante del presupuesto climático, es el más incierto: tan incierto que podría desempeñar un papel de enfriamiento o de calentamiento. EMIT busca controlar esta incertidumbre y \"restringir el signo\" del forzamiento radiativo a un efecto de enfriamiento o de calentamiento.",
+    "pregunta": "Why is it important to heat and cool atmospheric dust?",
+    "respuesta": "There are many important factors that determine our planet's climate trajectory. EMIT focuses on radiative forcing, or the amount of heat trapped or reflected by the atmosphere. While radiative forcing is not the most significant part of the climate budget, it is the most uncertain: so uncertain that it could play a cooling or warming role. EMIT seeks to control this uncertainty and \"constrain the sign\" of radiative forcing to either a cooling or warming effect.",
     "viñetas": [
-      "Forzamiento radiativo = la diferencia entre la insolación absorbida por la Tierra y la energía irradiada de vuelta al espacio",
-      "Emit busca controlar el forzamiento radiativo, aunque no es el más importante si es el más incierto respecto a los esfuerzos a resolver para combatir el cambio climático."
+        "Radiative forcing = the difference between the solar energy absorbed by Earth and the energy radiated back into space.",
+        "EMIT aims to control radiative forcing, even though it's not the most important factor; it's the most uncertain when it comes to efforts to combat climate change."
     ]
-  },
-  {
-    "pregunta": "¿Por qué EMIT va a la Estación Espacial Internacional?",
-    "respuesta": "La Estación Espacial Internacional (ISS) cuenta con una gran cantidad de infraestructura que EMIT puede aprovechar para ayudar a mantener bajos los costos. EMIT se une a un legado sustancial de instrumentos importantes, como ECOSTRESS y GEDI, en la recopilación de datos desde un punto de vista estratégico en la ISS.",
+},
+{
+    "pregunta": "Why is EMIT going to the International Space Station?",
+    "respuesta": "The International Space Station (ISS) has a vast amount of infrastructure that EMIT can leverage to help keep costs low. EMIT joins a substantial legacy of significant instruments like ECOSTRESS and GEDI in strategically collecting data from the ISS.",
     "viñetas": []
-  }
+}
 ]
