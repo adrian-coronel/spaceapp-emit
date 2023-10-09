@@ -117,27 +117,21 @@ section {
   animation-fill-mode: both;
 }
 
+
 .section-inner a {
   animation: fadeInUp 0.5s ease-in-out 0.4s;
   animation-fill-mode: both;
-
 }
 
 /* Background images */
 .section-a {
   background-image: url('../img/section-a.webp');
- 
 }
 .section-b {
-  background-image: url('../img/seccion7.jpg');
+  background-image: url('../img/section-b.webp');
 }
 .section-c {
-  background-image: url('../img/seccion10.jpg');
-   /* Para soporte en navegadores antiguos */
-}
-
-.section-h {
-  background-image: url('../img/espacio2.jpg');
+  background-image: url('../img/section-c.webp');
    /* Para soporte en navegadores antiguos */
 }
 .section-d {
@@ -148,7 +142,7 @@ section {
    /* Para soporte en navegadores antiguos */
 }
 .section-f {
-  background-image: url('../img/satelite_seccion1.jpg');
+  background-image: url('../img/section-f.webp');
 }
 
 .btn {

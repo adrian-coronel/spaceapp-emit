@@ -1,56 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
-    <title>SpaceX - Falcon 9</title>
-  </head>
-  <body>
-    <div id="overlay"></div>
-    <div id="mobile-menu" class="mobile-main-menu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/aplicaciones.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/aplicaciones_efectos.css">
+  <script src="js/script.js" defer></script>
+  <title>Aplicaciones</title>
+  <link rel="box-icon" href="">
+  <link rel="icon" href="img/icon.ico">
+
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <<div id="mobile-menu" class="mobile-main-menu">
+    <ul>
+      <li class="mobile-only"><a href="index.html">Inicio</a></li>
+      <li class="mobile-only"><a href="mapa.html">Mapa</a></li>
+      <li class="mobile-only"><a href="beneficios.html">Benificios</a></li>
+      <li class="mobile-only"><a href="aplicaciones.html">Aplicaciones</a></li>
+      <li class="mobile-only"><a href="efectos.html">Efectos</a></li>
+      <li class="mobile-only"><a href="preguntas.html">Preguntas</a></li>
+    </ul>
+  </div>
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="SpaceX" />
+      </a>
+    </div>
+    <nav class="desktop-main-menu">
       <ul>
-        <li class="mobile-only"><a href="index.html">Home(Mikhael)</a></li>
-        <li class="mobile-only"><a href="mapa.html">Mapa(Pedro)</a></li>
-        <li class="mobile-only"><a href="beneficios.html">Benificios(Delvin)</a></li>
-        <li class="mobile-only"><a href="aplicaciones.html">Apps(Sebas)</a></li>
-        <li class="mobile-only"><a href="efectos.html">Efectos(Duberly)</a></li>
-        <li class="mobile-only"><a href="preguntas.html">Preguntas(Adrian)</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mapa.html">Mapa</a></li>
+        <li><a href="beneficios.html">Benificios</a></li>
+        <li><a href="aplicaciones.html">Apicaciones</a></li>
+        <li><a href="efectos.html">Efectos</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
       </ul>
-    </div>
-    <header class="main-header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/logo.png" alt="SpaceX" />
-        </a>
+    </nav>
+  </header>
+
+  <!-- Hamburger Menu -->
+  <button id="menu-btn" class="hamburger" type="button">
+    <span class="hamburger-top"></span>
+    <span class="hamburger-middle"></span>
+    <span class="hamburger-bottom"></span>
+  </button>
+
+
+  <!--Seccion A-->
+  <section class="section-animate bg-falcon-9"></section>
+  <div class="section-inner-center">
+    <h3>Conoce las aplicaciones del EMIT</h3>
+
+    <a href="#ancla-1" class="btn">
+      <div class="hover"></div>
+      <span>Aplicaciones activas</span>
+    </a>
+    <a href="#ancla-2" class="btn">
+      <div class="hover"></div>
+      <span>Aplicaciones potenciales</span>
+    </a>
+  </div>
+
+
+  <!--Seccion B-->
+  <section class="section-animate ">
+    <a name="ancla-1"></a>
+    <div class="app_container">
+
+      <div class="apps_title_type">
+        <h1>Aplicaciones activas</h1>
       </div>
-      <nav class="desktop-main-menu">
-        <ul>
-          <li><a href="index.html">Home(Mikhael)</a></li>
-          <li><a href="mapa.html">Mapa(Pedro)</a></li>
-          <li><a href="beneficios.html">Benificios(Delvin)</a></li>
-          <li><a href="aplicaciones.html">Apps(Sebas)</a></li>
-          <li><a href="efectos.html">Efectos(Duberly)</a></li>
-          <li><a href="preguntas.html">Preguntas(Adrian)</a></li>
-        </ul>
-      </nav>
-    </header>
+      <!--Aplicaciones activas-->
+      <div class="apps">
+        <!--Carta de la aplicación-->
+        <!--Mapeo de gases-->
+        <div class="app_card1">
+          <div>
+            <div class="app_title at_a">
+              <h2>Mapeo de gases de efecto invernadero</h2>
 
-    <!-- Hamburger Menu -->
-    <button id="menu-btn" class="hamburger" type="button">
-      <span class="hamburger-top"></span>
-      <span class="hamburger-middle"></span>
-      <span class="hamburger-bottom"></span>
-    </button>
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-1" class="btn linkpopup" data-popup="popup1">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
 
-    <section class="section-animate bg-falcon-9"></section>
-    <div class="section-inner-center">
-      <h3>APLICACIONES</h3>
-      <p>First orbital class rocket capable of reflight</p>
+          <div id="popup1" class="popup">
+            <div class="popup-content" id="popup-content1">
+              <!-- Contenido de la carta -->
+
+              <h2>Mapeo de gases de efecto invernadero</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la primera diapositiva -->
+
+
+
+                <h3>Los gases de efecto invernadero con mayor impacto son:</h3>
+
+                <div class="box">
+                  <div>
+                    <img src="img/co2.png" alt="">
+                  </div>
+
+                  <div class="box_text">
+                    <h4>Dióxido de Carbono</h4>
+                    <p>Las actividades humanas han aumentado la cantidad de CO2 en la atmósfera en un 50% desde que
+                      comenzó la Revolución Industrial </p>
+                    <a href="https://climate.nasa.gov/en-espanol/signos-vitales/dioxido-de-carbono/"
+                      class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>¿Qué es el Dioxido de carbono?</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="box">
+
+                  <div class="box_text">
+                    <h4>Metano</h4>
+                    <p>La cantidad de metano en nuestra atmósfera se ha más que duplicado desde la época preindustrial.
+                    </p>
+                    <a href="https://climate.nasa.gov/en-espanol/signos-vitales/metano/" class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>¿Qué es el metano?</span>
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="img/metano.png" alt="">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="slide slide2">
+                <!-- Contenido de la segunda diapositiva -->
+                <h2>¿Qué hace EMIT?</h2>
+                <div class="container">
+                  <div class="card">
+                    <h3>Detección de gases</h3>
+                    <p>identifican la firma espectral única de los gases de efecto invernadero en la luz reflejada por
+                      la Tierra</p>
+
+                  </div>
+
+                  <div class="card">
+                    <h3>Mapeo de Fuentes emisoras</h3>
+                    <p>Localiza y mapea las fuentes específicas de estas emisiones</p>
+
+                  </div>
+
+                  <div class="card">
+                    <h3>Comprensión y Mitigación</h3>
+                    <p>Permiten comprender la magnitud y la ubicación de las emisiones antropogénicas de gases de efecto
+                      invernadero</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide slide3">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué obtenemos?</h2>
+
+                <div class="container">
+                  <div class="screen_vission">
+                    <div>
+                      <h3>VISIONS: The EMIT Open Data Portal</h3>
+                      <p> EMIT contribuye a estudiar cómo el derretimiento de la nieve y el hielo afecta los recursos
+                        hídricos, incluyendo la elevación del nivel del mar y su impacto en las poblaciones cercanas a
+                        las costas.</p>
+
+                      <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/"
+                        class="btn linkpopup">
+                        <div class="hover"></div>
+                        <span>Entra a VISIONS</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup1', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup1', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup1')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!--Carta de la aplicación-->
+        <!--Estudio de propiedades de la nieve-->
+        <div class="app_card1">
+          <div>
+            <div class="app_title at_b">
+              <h2>Estudio de propiedades de la nieve</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-1" class="btn linkpopup" data-popup="popup2">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup2" class="popup">
+            <div class="popup-content">
+
+              <h2>Estudio de propiedades de la nieve</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué es el albedo?</h2>
+
+                <div class="container">
+
+                  <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d1U7X1k3d0Y" frameborder="0"
+                      allowfullscreen></iframe>
+                  </div>
+
+                  <p>El albedo es la fracción de luz que refleja una superficie
+                    El albedo de la superficie de la Tierra (atmósfera, océano, superficies terrestres) determina cuánta
+                    energía solar entrante, o luz, se refleja inmediatamente de regreso al espacio. Esto puede tener un
+                    impacto en el clima.
+                  </p>
+                </div>
+              </div>
+
+              <div class="slide slide2">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+
+
+                <div class="box">
+                  <div class="box_img">
+                    <img src="img/snow_cover.png" alt="">
+                    <p class="descripcion">Vista de la capa de nieve en los Andes chilenos desde EMIT</p>
+                  </div>
+
+                  <div class="box_text">
+
+                    <p> Medir la reflectividad de la nieve, permitiendo evaluar el nivel de albedo de la nieve </p>
+
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="card">
+
+                    <p>Permite monitorear los cambios en la extensión de la cobertura de nieve a lo largo del tiempo</p>
+
+                  </div>
+
+                  <div class="card">
+
+                    <p>Fundamental para comprender las tendencias en el derretimiento de la nieve y el impacto en el
+                      ciclo hidrológico</p>
+
+                  </div>
+
+                  <div class="card">
+
+                    <p>comprender cómo los cambios en la cobertura de nieve y el derretimiento pueden afectar la
+                      liberación
+                      de estos gases</p>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup2', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup2', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup2')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!--Carta de la aplicación-->
+        <!--Estudio de propiedades de la nieve-->
+        <!--Investigación de Recursos Hídricos-->
+        <div class="app_card1">
+          <div>
+            <div class="app_title at_c">
+              <h2>Investigación de Recursos Hídricos</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-1" class="btn linkpopup" data-popup="popup3">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup3" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <h2>Investigación de Recursos Hídricos</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+
+                <div class="container">
+                  <div class="sea_background">
+                    <div>
+
+                      <p> El aumento del derretimiento de la nieve y el hielo hace que la Tierra absorba más la luz
+                        solar y desplaza enormes volúmenes de agua almacenada desde la superficie terrestre, elevando el
+                        nivel del mar y cambiando la disponibilidad de agua para grandes poblaciones.</p>
+
+                      <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/"
+                        class="btn linkpopup">
+                        <div class="hover"></div>
+                        <span>Descubre más</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup3', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup3', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup3')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+
+
+
+  <!--Seccion C-->
+  <section class="section-animate at_d ">
+    <a name="ancla-2"></a>
+    <div class="app_container">
+      <div class="apps_title_type">
+        <h1>Aplicaciones potenciales</h1>
+      </div>
+      <div class="apps">
+
+        <div class="app_card">
+          <div>
+            <div class="app_title at_e">
+              <h2>Peligros naturales</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup4">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup4" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <h2>Peligros naturales</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+
+                <div class="container">
+
+                  <div>
+
+                    <p>Los datos de EMIT podrían permitir la detección de una variedad de peligros naturales y podrían
+                      usarse para guiar las estrategias de gestión de desastres </p>
+
+
+                  </div>
+
+                  <div class="carousel">
+                    <div class="carousel-container">
+                      <div class="carousel-track">
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A1.jpg);" >
+                            <p>Sequías</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Periodos prolongados de escasez de lluvias que pueden causar escasez de agua, afectar la agricultura y causar problemas de abastecimiento de agua.</p>
+                          </div>
+                        </div>
+                        <!-- Repite este bloque para cada peligro natural -->
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A2.jpg);">
+                            <p>Inundaciones</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Desbordamiento de ríos, embalses u otras fuentes de agua que inundan áreas circundantes, causando daños a propiedades y vidas.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A3.jpg);">
+                            <p>Erupciones volcánicas</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Explosiones de un volcán que pueden lanzar cenizas, lava y gases, afectando áreas circundantes y causando daños.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A4.jpg);">
+                            <p>Deslizamiento de tierra</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Movimientos de masa de tierra que pueden ocurrir en laderas empinadas y causar daños a propiedades y carreteras.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A5.jpg);">
+                            <p>Ciclones tropicales</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Tormentas intensas que se forman sobre aguas cálidas y pueden provocar fuertes vientos, lluvias torrenciales y marejadas ciclónicas. Incluyen huracanes y tifones.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A6.jpg);">
+                            <p>Extremos térmicos</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Variaciones extremas en las temperaturas, como olas de calor o olas de frío, que pueden tener efectos adversos en la salud y la infraestructura.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A7.jpg);">
+                            <p>Tormentas,rayos y tornados</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p> Tormentas severas que generan vientos giratorios extremadamente fuertes y destructivos, capaces de causar daños significativos en un área localizada.</p>
+                          </div>
+                        </div>
+
+                        <div class="carousel-item">
+                          <div class="front" style="border-radius: 50%; background-image:url(img/A8.jpg);">
+                            <p>Lluvias intensas</p>
+                          </div>
+                          <div class="back">
+                            <!-- Información adicional para Sequías -->
+                            <p>Precipitaciones muy abundantes en un corto período de tiempo, lo que puede provocar inundaciones y deslizamientos de tierra.</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="arrow left"></div>
+                    <div class="arrow right"></div>
+                  </div>
+                </div>
+                <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/" class="btn linkpopup">
+                  <div class="hover"></div>
+                  <span>Descubre más</span>
+                </a>
+              </div>
+
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup4', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup4', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup4')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="app_card ">
+          <div>
+            <div class="app_title at_f">
+              <h2>Contaminación ambiental</h2>
+
+            </div>
+          </div>
+
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup5">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup5" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <h2>Contaminación Ambiental</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la segunda diapositiva -->
+                <h2>Problemas</h2>
+                <div class="container">
+                  <div class="card">
+                    <h3>Derrames de petróleo</h3>
+                    <p>identifican la firma espectral única de los gases de efecto invernadero en la luz reflejada por
+                      la Tierra</p>
+
+                  </div>
+
+                  <div class="card">
+                    <h3>Plásticos en los océanos</h3>
+                    <p>Localiza y mapea las fuentes específicas de estas emisiones</p>
+
+                  </div>
+
+                  <div class="card">
+                    <h3>Drenaje ácido de minas</h3>
+                    <p>Permiten comprender la magnitud y la ubicación de las emisiones antropogénicas de gases de efecto
+                      invernadero</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+
+                <div class="container">
+                  <div class="sea_background">
+                    <div>
+
+                      <p> El aumento del derretimiento de la nieve y el hielo hace que la Tierra absorba más la luz
+                        solar y desplaza enormes volúmenes de agua almacenada desde la superficie terrestre, elevando el
+                        nivel del mar y cambiando la disponibilidad de agua para grandes poblaciones.</p>
+
+                      <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/Greenhouse-Gases/"
+                        class="btn linkpopup">
+                        <div class="hover"></div>
+                        <span>Descubre más</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup5', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup5', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup5')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="app_card">
+          <div>
+            <div class="app_title at_g">
+              <h2>Aguas costeras y proliferación de algas nocivas</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup6">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup6" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <h2>Aguas costeras y proliferación de algas nocivas</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la primera diapositiva -->
+
+
+
+                <h3>Los gases de efecto invernadero con mayor impacto son:</h3>
+
+                <div class="box">
+                  <div>
+                    <img src="img/co2.png" alt="">
+                  </div>
+
+                  <div class="box_text">
+                    <h4>Dióxido de Carbono</h4>
+                    <p>Las actividades humanas han aumentado la cantidad de CO2 en la atmósfera en un 50% desde que
+                      comenzó la Revolución Industrial </p>
+                    <a href="https://climate.nasa.gov/en-espanol/signos-vitales/dioxido-de-carbono/"
+                      class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>¿Qué es el Dioxido de carbono?</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="box">
+
+                  <div class="box_text">
+                    <h4>Metano</h4>
+                    <p>La cantidad de metano en nuestra atmósfera se ha más que duplicado desde la época preindustrial.
+                    </p>
+                    <a href="https://climate.nasa.gov/en-espanol/signos-vitales/metano/" class="btn linkpopup">
+                      <div class="hover"></div>
+                      <span>¿Qué es el metano?</span>
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="img/metano.png" alt="">
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup6', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup6', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup6')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="app_card">
+          <div>
+            <div class="app_title at_h">
+              <h2>Seguimiento agrícola</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup7">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup7" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <h2>Seguimiento agrícola</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+                <div class="container">
+                  <div class="box_img"><!--imagen a la izquierda-->
+                    <img src="img/contaminacion_ambiental.jpg" alt="">
+                  </div>
+
+                  <div class="box_text">
+                    <h3>EMIT recopilará datos sobre muchas de las regiones agrícolas del mundo</h3>
+                    <p>Dependiendo de la temporada y el manejo de los cultivos, estos datos pueden proporcionar
+                      información sobre los tipos de cultivos, la salud y enfermedades de la vegetación, la composición
+                      de los residuos de los cultivos y la mineralogía del suelo.</p>
+
+                    <div class="sub_text">
+                      <div class="box_icon" ><!--ICONO o STICKER,etc-->
+                        <img src="img/sal.png" alt="">
+                      </div>
+                      <p>La salud de los cultivos y la producción agrícola son esenciales para mantener la salud humana
+                        y las sociedades.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup7', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup7', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup7')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="app_card">
+          <div>
+            <div class="app_title at_i">
+              <h2>Manejo forestal e incendios</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup8">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup8" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <h2>MANEJO FORESTAL E INCENDIOS</h2>
+              <div class="slide slide1">
+                <!-- Contenido de la tercera diapositiva -->
+                <h2>¿Qué puede hacer EMIT?</h2>
+                <div class="container">
+                  <div class="box1 box">
+                    <div  class="box_img">
+                      <img src="" alt="">
+                    </div>
+                    <div  class="box_text">
+                      <p>Las tierras forestales, tanto en el oeste de EE. UU. como en todo el mundo, corren un riesgo cada vez mayor de mortalidad debido a sequías, brotes de escarabajos e incendios forestales.</p>
+                    </div>
+                  </div>
+
+                  <div class="box2 box">
+                    <div class="box_img">
+                      <img src="" alt="">
+                    </div>
+                    <div class="box_text">
+                      <p>los datos de EMIT se pueden utilizar después de un incendio forestal para evaluar la recuperación y monitorear los riesgos actuales</p>
+                    </div>
+                  </div>
+
+                  <div class="box3 box">
+                    <div  class="box_img">
+                      <img src="" alt="">
+                    </div>
+                    <div class="box_text">
+                      <p>Los datos de EMIT podrían usarse para monitorear la salud de los bosques</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide slide2">
+                  <h3></h3>
+                  <div >
+
+                    <div >
+                      <img src="img/FIRMS_today[@0.0,0.0,3.0z].jpg" alt="" class="FIRMS_today">
+                    </div>
+                    <div class="box_text">
+                      <p>El albedo es la fracción de luz que refleja una superficie
+                        El albedo de la superficie de la Tierra (atmósfera, océano, superficies terrestres) determina cuánta
+                        energía solar entrante, o luz, se refleja inmediatamente de regreso al espacio. Esto puede tener un
+                        impacto en el clima.
+                      </p>
+                    </div>
+                    <a href="https://firms.modaps.eosdis.nasa.gov/map/" class="btn linkpopup" data-popup="popup8">
+                      <div class="hover"></div>
+                      <span>fIRMS MAP</span>
+                    </a>
+          
+                  </div>
+              </div>
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup8', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup8', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup8')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="app_card">
+          <div>
+            <div class="app_title at_j">
+              <h2>Monitoreo de comunidades vegetales y biodiversidad.</h2>
+
+            </div>
+          </div>
+          <br>
+          <a href="#ancla-2" class="btn linkpopup" data-popup="popup9">
+            <div class="hover"></div>
+            <span>Ver más</span>
+          </a>
+
+          <div id="popup9" class="popup">
+            <div class="popup-content">
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la carta -->
+              <!-- Contenido de la tercera diapositiva -->
+              <h2>¿Qué puede hacer EMIT?</h2>
+              <div class="container">
+
+                <div class="box_text">
+                  <h3>EMIT recopilará datos sobre muchas de las regiones agrícolas del mundo</h3>
+                  <p>Dependiendo de la temporada y el manejo de los cultivos, estos datos pueden proporcionar
+                    información sobre los tipos de cultivos, la salud y enfermedades de la vegetación, la composición
+                    de los residuos de los cultivos y la mineralogía del suelo.</p>
+
+                  <div class="sub_text">
+                    <div class="box_icon"><!--ICONO o STICKER,etc-->
+                      <img src="img/A12.png" alt="">
+                    </div>
+                    <p>La salud de los cultivos y la producción agrícola son esenciales para mantener la salud humana
+                      y las sociedades.</p>
+                  </div>
+                </div>
+
+                <div class="box_img"><!--imagen a la izquierda-->
+                  <img src="img/contaminacion_ambiental.jpg" alt="">
+                </div>
+              </div>
+
+              <!-- Botones para cambiar entre diapositivas -->
+              <i class='bx bxs-left-arrow arrow_icon anterior' onclick="cambiarDiapositiva('popup9', -1)"></i>
+              <i class='bx bxs-right-arrow arrow_icon siguiente'
+                onclick="cambiarDiapositiva('popup9', 1)"></i></box-icon>
+
+              <button class="closePopup" onclick="cerrarPopup('popup9')"><i class='bx bx-x'></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+
+  </section>
+
+  <!--
     <div class="stats">
       <div>
         <span class="counter" data-target="3">0</span>
@@ -65,18 +862,23 @@
         <h4>Total Reflights</h4>
       </div>
     </div>
+    -->
 
-    <footer>
-      <ul>
-        <li>SpaceX &copy; 2022</li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">YouTube</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Flickr</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Suppliers</a></li>
-      </ul>
-    </footer>
-  </body>
+
+  <footer style="margin-top: 100px;">
+    <ul>
+      <li>SpaceX &copy; 2022</li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">YouTube</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Flickr</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Suppliers</a></li>
+    </ul>
+  </footer>
+  <script src="js/aplicaciones.js"></script>
+  <script src="js/aplicacion_carousel.js"></script>
+</body>
+
 </html>

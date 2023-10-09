@@ -1,0 +1,606 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p{
+    text-transform: capitalize;
+    color: #B8BBBF;
+}
+.apps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.app_card1{
+    width: 38vh;
+    height: 38vh;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border: 1px solid wheat;
+    text-align: center;
+
+}
+
+.app_card {
+    width: 38vh;
+    height: 38vh;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border: 1px solid wheat;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.app_card img {
+    width: 80%;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.app_container {
+    margin: 50px 120px 50px 120px;
+}
+
+.apps_title_type {
+    margin: 50px 0px 50px 0px;
+}
+
+.app_title {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    height: 200px;
+}
+
+.app_title h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+
+
+}
+
+.at_a {
+    background-image: url(../img/img04_PIA25592~small.jpg);
+    background-size: cover;
+    /* Hace que la imagen de fondo cubra todo el elemento */
+
+}
+
+.at_b {
+    background-image: url(../img/img03_sl4-138-3875~small.jpg);
+    background-size: cover;
+}
+
+.at_c {
+    background-image: url(../img/hidrico_image02.jpeg);
+    background-size: cover;
+}
+
+.at_d {
+    background-image: url(../img/cryostill_image01.jpg);
+    background-size: cover;
+}
+
+.at_e {
+    background-image: url(../img/peligros_naturales.jpg);
+    background-size: cover;
+}
+
+.at_f {
+    background-image: url(../img/contaminacion_ambiental.jpg);
+    background-size: cover;
+}
+
+.at_g {
+    background-image: url(../img/proliferacion_algas.jpg);
+    background-size: cover;
+}
+
+.at_h {
+    background-image: url(../img/moniteoreo_agricola.jpg);
+    background-size: cover;
+}
+
+.at_i {
+    background-image: url(../img/incendios_forestal.jpg);
+    background-size: cover;
+}
+
+.at_j {
+    background-image: url(../img/comunidades_vegetales.jpg);
+    background-size: cover;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo oscuro para el fondo */
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 89%;
+    background: #505050;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.linkpopup {
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.img_container {
+    text-align: end;
+}
+
+.closePopup {
+    position: absolute;
+    /* Establecemos posición absoluta para el botón */
+    top: 10px;
+    /* Ajustamos la distancia desde la parte superior */
+    right: 10px;
+    /* Ajustamos la distancia desde la derecha */
+    cursor: pointer;
+}
+
+.anterior {
+    position: absolute;
+    /* Establecemos posición absoluta para el botón */
+    top: 45%;
+    /* Ajustamos la distancia desde la parte superior */
+    left: 0px;
+    /* Ajustamos la distancia desde la derecha */
+    cursor: pointer;
+
+}
+
+.siguiente {
+    position: absolute;
+    /* Establecemos posición absoluta para el botón */
+    top: 45%;
+    /* Ajustamos la distancia desde la parte superior */
+    right: 0px;
+    /* Ajustamos la distancia desde la derecha */
+    cursor: pointer;
+}
+
+.arrow_icon {
+    font-size: 100px;
+
+}
+
+
+
+.popup-content h2 {
+    margin: 15px;
+}
+
+
+#popup-content1 img {
+    height: 380px;
+    width: 75%;
+
+}
+
+#popup-content1 .popup_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#popup-content1 .popup_text p {
+    margin-top: 10px;
+    width: 75%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.slide {
+    display: none;
+}
+
+#popup1 .slide1 img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#popup1 .slide1 .box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#popup1 .slide1 .box .box_text {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+
+}
+
+#popup1 .slide1 .box .box_text p {
+    margin-top: 20px;
+}
+
+#popup1 .slide1 .box .box_text h4 {
+    margin-top: 20px;
+}
+
+#popup1 .slide2 .container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#popup1 .slide2 .container .card {
+    border: 1px solid white;
+    height: 300px;
+    width: 20%;
+}
+
+#popup1 .slide2 .container p {
+
+    margin: 25px;
+    text-align: justify;
+}
+
+#popup1 .slide2 .container h3 {
+    margin: 25px;
+}
+
+#popup1 .slide3 .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.screen_vission {
+    background-image: url(../img/mmgis-screenshot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px 10px 0px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.screen_vission div {
+    margin: 20px 0px 20px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+#popup2 .slide1 .video-container {
+    margin-top: 20px;
+}
+
+#popup2 .slide2 h2 {
+    margin-top: 40px;
+
+}
+
+#popup2 .slide2 .box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#popup2 .slide2 img {
+    margin: 0;
+    width: 50%;
+    height: 100px;
+}
+
+#popup2 .slide2 .box_img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popup2 .slide2 .box_img p {
+    width: 50%;
+    font-size: small;
+}
+
+#popup2 .slide2 .box_text {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+#popup2 .slide2 .container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+#popup2 .slide2 .container .card {
+    border: 1px solid white;
+    height: 200px;
+    width: 20%;
+}
+
+#popup2 .slide2 .container p {
+
+    margin: 25px;
+    text-align: justify;
+}
+
+#popup2 .slide2 .container h3 {
+    margin: 25px;
+}
+
+#popup3 .slide1 .container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sea_background {
+    background-image: url(../img/sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px 10px 0px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+.sea_background div {
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+#popup5 .slide1 .container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#popup5 .slide1 .container .card {
+    border: 1px solid white;
+    height: 300px;
+    width: 20%;
+}
+
+#popup5 .slide1 .container p {
+
+    margin: 25px;
+    text-align: justify;
+}
+
+#popup5 .slide1 .container h3 {
+    margin: 25px;
+}
+
+
+
+#popup6 .slide1 img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#popup6 .slide1 .box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#popup6 .slide1 .box .box_text {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+
+}
+
+#popup6 .slide1 .box .box_text p {
+    margin-top: 20px;
+}
+
+#popup6 .slide1 .box .box_text h4 {
+    margin-top: 20px;
+}
+
+#popup7 .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#popup7 .box_img {
+    width: 50%;
+   
+
+}
+
+#popup7 .box_img img{
+    height: 350px;
+
+}
+
+#popup7 .box_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popup7 .box_text h3{
+    margin: 10px;
+}
+#popup7 .box_text p{
+    margin: 10px;
+    width: 80%;
+}
+
+#popup7 .sub_text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#popup7 .sub_text div {
+    flex: 1;
+    width: 50%;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#popup7 .sub_text p {
+    flex: 1;
+    width: 50%;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#popu7 .box_icon{
+
+    border: 1px solid red;
+}
+
+#popup8 .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px 50px 0px 50px;
+ 
+
+}
+
+#popup8 .box{
+    padding: 20px;
+
+}
+#popup8 .box1{
+ 
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#popup8 .box2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#popup8 .box3{
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+#popup8 .box_text{
+    
+}
+
+
+#popup9 .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#popup9 .box_img {
+    width: 50%;
+   
+
+}
+
+#popup9 .box_img img{
+    height: 350px;
+
+}
+
+#popup9 .box_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popup9 .box_text h3{
+    margin: 10px;
+}
+#popup9 .box_text p{
+    margin: 10px;
+    width: 80%;
+}
+
+#popup9 .sub_text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#popup9 .sub_text div {
+    flex: 1;
+    width: 50%;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#popup9 .sub_text p {
+    flex: 1;
+    width: 50%;
+
+    text-align: center;
+    padding: 10px;
+}
+
+/* #popup9 .box_icon{
+    background-color: aliceblue;
+    border: 1px solid red;
+} */
