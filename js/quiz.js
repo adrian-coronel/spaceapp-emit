@@ -1,36 +1,37 @@
 const questions = [
     {
-      question: "¿Cuál es la misión de EMIT?",
-      options: ["Estudiar asteroides", "Analizar el polvo transportado desde regiones áridas", "Observar planetas"],
-      answer: "Analizar el polvo transportado desde regiones áridas"
-  },
-  {
-      question: "¿Dónde opera el instrumento EMIT?",
-      options: ["En la Luna", "En la Estación Espacial Internacional (ISS)", "En un avión"],
-      answer: "En la Estación Espacial Internacional (ISS)"
-  },
-  {
-      question: "¿Cómo utiliza EMIT el espectrómetro de imágenes?",
-      options: ["Para estudiar el clima", "Para estudiar la luz del sol que rebota en los minerales de la Tierra", "Para estudiar la atmósfera"],
-      answer: "Para estudiar la luz del sol que rebota en los minerales de la Tierra"
-  },
-  {
-      question: "¿Qué tipo de información registra cada detector de EMIT?",
-      options: ["1240 partes diferentes", "La temperatura del espacio", "La velocidad del viento"],
-      answer: "1240 partes diferentes"
-  },
-  {
-      question: "¿Qué gases de efecto invernadero puede detectar EMIT?",
-      options: ["Oxígeno y nitrógeno", "Dióxido de carbono y oxígeno", "Dióxido de carbono y metano"],
-      answer: "Dióxido de carbono y metano"
-  },
-  {
-      question: "¿Cuál es uno de los posibles beneficios de utilizar los datos de EMIT?",
-      options: ["Mejorar la producción agrícola", "Detectar peligros naturales", "Controlar la contaminación del agua"],
-      answer: "Detectar peligros naturales"
-  },
-    // Agrega más preguntas y respuestas aquí
+      question: "What is EMIT's mission?",
+      options: ["Study asteroids", "Analyze dust transported from arid regions", "Observe planets"],
+      answer: "Analyze dust transported from arid regions"
+    },
+    {
+      question: "Where does the EMIT instrument operate?",
+      options: ["On the Moon", "On the International Space Station (ISS)", "On an airplane"],
+      answer: "On the International Space Station (ISS)"
+    },
+    {
+      question: "How does EMIT use the imaging spectrometer?",
+      options: ["To study the climate", "To study sunlight bouncing off Earth's minerals", "To study the atmosphere"],
+      answer: "To study sunlight bouncing off Earth's minerals"
+    },
+    {
+      question: "What type of information does each EMIT detector record?",
+      options: ["1240 different parts", "Space temperature", "Wind speed"],
+      answer: "1240 different parts"
+    },
+    {
+      question: "Which greenhouse gases can EMIT detect?",
+      options: ["Oxygen and nitrogen", "Carbon dioxide and oxygen", "Carbon dioxide and methane"],
+      answer: "Carbon dioxide and methane"
+    },
+    {
+      question: "What is one of the possible benefits of using EMIT's data?",
+      options: ["Improving agricultural production", "Detecting natural hazards", "Controlling water pollution"],
+      answer: "Detecting natural hazards"
+    },
+    // You can add more questions and answers here
   ];
+  
   
   let currentQuestionIndex = 0;
   let correctAnswers = 0;
